@@ -1,0 +1,2 @@
+# CGI
+ cgi test
