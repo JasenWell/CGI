@@ -1,0 +1,24 @@
+﻿http://nginx.org/download/
+worker_processes：工作进程个数，可配置多个
+
+worker_connections:单个进程最大连接数
+
+server:每一个server相当于一个代理服务器
+
+lister:监听端口，默认80
+
+server_name:当前服务的域名，可以有多个，用空格分隔(我们是本地所以是localhost)
+
+location：表示匹配的路径，这时配置了/表示所有请求都被匹配到这里
+
+index：当没有指定主页时，默认会选择这个指定的文件，可多个，空格分隔
+
+proxy_pass：请求转向自定义的服务器列表
+
+upstream name{ }:服务器集群名称
+
+
+https://www.cnblogs.com/naaoveGIS/p/5478208.html
+
+
+https://www.cnblogs.com/pricks/p/3837149.html
